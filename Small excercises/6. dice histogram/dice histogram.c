@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
+//program simulates n - throws of 2 dices and makes scaled histogram of the score
 void rollDices(int tab[], int size, int n) {
     int dice1, dice2;
     srand((unsigned) time(NULL));
