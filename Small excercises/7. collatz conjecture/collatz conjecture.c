@@ -14,20 +14,24 @@ int main() {
     highscore = 0;
     flag = 1;
     collatzIndex = 0;
+
     for (int i = number1; (i <= number2) && (flag != 0); i++) {
         currentNumber = i;
         rememberIndex = i;
         collatzIndex = 0;
+
         while ((flag == 1) && (currentNumber != 1)) {
             if (currentNumber % 2 == 1) {
                 if (currentNumber > (INT_MAX - 1) / 3)
                     flag = 0;
                 else
                     currentNumber = 3 * currentNumber + 1;
-            } else
+            }
+            else
                 currentNumber = currentNumber / 2;
             collatzIndex++;
         }
+
         if (collatzIndex > highscore) {
             highscoreIndex = i;
             highscore = collatzIndex;
@@ -37,5 +41,6 @@ int main() {
         printf("%d?", rememberIndex);
     else
         printf("%d %d", highscoreIndex, highscore);
+
     return 0;
 }
