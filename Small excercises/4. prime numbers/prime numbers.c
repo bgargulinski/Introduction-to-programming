@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-//factorization of number
+// factorization of number
 int main() {
     int n;
 

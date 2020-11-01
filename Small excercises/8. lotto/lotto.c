@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-//function simulates classic Polish loterry with random n lottery tickets
+// function simulates classic Polish loterry with random n lottery tickets
 int main() {
     int n, i, j, k, countIndex;
     int result[6], ticket[6], count[7];
@@ -31,7 +31,7 @@ int main() {
         for (i = 0; i < 6; i++) {
             j = 0;
             ticket[i] = (rand() % 49 + 1);
-            
+
             while (j < i) {
                 if (ticket[i] == ticket[j])
                     ticket[i] = (rand() % 49 + 1);

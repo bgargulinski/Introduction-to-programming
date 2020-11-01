@@ -3,9 +3,9 @@
 #include <time.h>
 #include <limits.h>
 
-//function takes two numbers then looks for the lowest number between them that
-//has a number bigger than MAX_INT in its Collatz sequence or if there is no such number
-//it prints the number which has first number 1 in its Collatz sequence with the highest index
+// function takes two numbers then looks for the lowest number between them that
+// has a number bigger than MAX_INT in its Collatz sequence or if there is no such number
+// it prints the number which has first number 1 in its Collatz sequence with the highest index
 int main() {
     int number1, number2, currentNumber, flag, rememberIndex,
     highscore, collatzIndex, highscoreIndex;

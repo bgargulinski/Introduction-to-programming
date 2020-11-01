@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-//program is drawing a tree made of stars
+// program is drawing a tree made of stars
 int main() {
     int n;
 

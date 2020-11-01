@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-//calculating sum of arithmetic sequence
+// calculating sum of arithmetic sequence
 int main() {
     double s, k, sum;
     int n;

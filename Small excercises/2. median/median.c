@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-//calculating median of 3 numbers
+// calculating median of 3 numbers
 int main() {
     int number[3];
     int median, max, min;

@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-//program approximates pi with monte carlo method
+// program approximates pi with monte carlo method
 int main() {
     srand((unsigned) time(NULL));
     int n, k;
